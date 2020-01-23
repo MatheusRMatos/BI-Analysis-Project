@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="CargaDimensoes"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{BDE1A654-B7B5-4302-B38B-0BFD2572C8E5}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{D9664567-6D1A-4919-A487-E15A843DC342}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -485,7 +485,6 @@
       DTS:refId="Package\Criação da Dimensão Cliente"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{41282E9D-728E-4C87-A79A-FB2076C254D1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3305,7 +3304,6 @@
       DTS:refId="Package\Criação da Dimensão Fábrica"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{EAD43D24-59FD-4BB9-B664-48E4482BB6A0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4111,7 +4109,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nivel 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{3F2D166C-D734-41DC-9BA4-7D49A4D8054C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5026,7 +5023,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nivel 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{AB19641B-B152-435F-8407-CB7A99916DC0}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6140,7 +6136,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nivel 3"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{BCA0ECD2-8EC6-46A7-AB2B-5C7E1A85EC21}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7208,7 +7203,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nivel 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{F32E4180-3319-4121-80E6-4C88A52FF369}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8123,7 +8117,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nivel 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{2BC23DF7-2086-4674-9E90-4B5BA0588FCC}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9191,7 +9184,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível - Categoria"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{CB8F08F2-B6C3-45F0-BE03-B78C299DEC5A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -10143,7 +10135,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível - Marca"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{8f0cf797-58ce-47d0-a6b3-0598fc3598b1}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -11102,7 +11093,6 @@ SELECT'003' AS CODIGO, 'Fáb. do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível - Produto"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{8294465E-698D-4377-8DA9-FFF7A6E89830}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -14745,7 +14735,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Execução da Rotina Esq Dir Nivel"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:Disabled="True"
       DTS:DTSID="{F4611632-06A7-4B88-B7B0-DE3E7455854A}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -14762,7 +14751,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Transferencia do Esq, Dir e Nivel"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{7550E4E7-F465-495A-9302-2470294E0550}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -16067,69 +16055,69 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         <NodeLayout
           Size="213,42"
           Id="Package\Criação da Dimensão Cliente"
-          TopLeft="281,31" />
+          TopLeft="265,27" />
         <NodeLayout
           Size="215,42"
           Id="Package\Criação da Dimensão Fábrica"
-          TopLeft="32,30" />
+          TopLeft="18,29" />
         <NodeLayout
           Size="250,42"
           Id="Package\Criação da Dimensão Organizacional Tab1 Nivel 1"
-          TopLeft="54,169" />
+          TopLeft="827.111111111111,35" />
         <NodeLayout
           Size="312,42"
           Id="Package\Criação da Dimensão Organizacional Tab1 Nivel 2"
-          TopLeft="343.25,171.083333333333" />
+          TopLeft="801.25,107.083333333333" />
         <NodeLayout
           Size="312,42"
           Id="Package\Criação da Dimensão Organizacional Tab1 Nivel 3"
-          TopLeft="717.333333333333,170" />
+          TopLeft="801.555555555555,182" />
         <NodeLayout
           Size="312,42"
           Id="Package\Criação da Dimensão Organizacional Tab2 Nivel 1"
-          TopLeft="720.25,244.833333333333" />
+          TopLeft="808.25,256.833333333333" />
         <NodeLayout
           Size="301,42"
           Id="Package\Criação da Dimensão Organizacional Tab2 Nivel 2"
-          TopLeft="356.833333333333,242.583333333333" />
+          TopLeft="813.944444444444,354.583333333333" />
         <NodeLayout
           Size="214,42"
           Id="Package\Criação da Dimensão Produto - Nível - Categoria"
-          TopLeft="29,96" />
+          TopLeft="503,30" />
         <NodeLayout
           Size="214,42"
           Id="Package\Criação da Dimensão Produto - Nível - Marca"
-          TopLeft="281,95" />
+          TopLeft="507.444444444444,110.111111111111" />
         <NodeLayout
           Size="216,42"
           Id="Package\Criação da Dimensão Produto - Nível - Produto"
-          TopLeft="537,94" />
+          TopLeft="501,196" />
         <NodeLayout
           Size="226,42"
           Id="Package\Criação da Dimensão Tempo"
-          TopLeft="50,431.428571428571" />
+          TopLeft="1210,35.428571428571" />
         <NodeLayout
           Size="234,42"
           Id="Package\Execução da Rotina Esq Dir Nivel"
-          TopLeft="52.9166666666667,250" />
+          TopLeft="844.472222222222,446.222222222222" />
         <NodeLayout
           Size="233,42"
           Id="Package\Transferencia do Esq, Dir e Nivel"
-          TopLeft="63.75,340" />
+          TopLeft="848.416666666667,522" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição]"
-          TopLeft="243,116.5">
+          TopLeft="612.222222222222,72">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="38,0"
+              EndConnector="0,38.1111111111111"
               Start="0,0"
-              End="30.5,0">
+              End="0,30.6111111111111">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="30.5,0" />
+                    End="0,30.6111111111111" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16140,18 +16128,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 1]"
-          TopLeft="495,115.5">
+          TopLeft="611.722222222222,152.111111111111">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="42,0"
+              EndConnector="0,43.8888888888889"
               Start="0,0"
-              End="34.5,0">
+              End="0,36.3888888888889">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="34.5,0" />
+                    End="0,36.3888888888889" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16162,18 +16150,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 2]"
-          TopLeft="304,191.041666666667">
+          TopLeft="954.680555555556,77">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="39.25,0"
+              EndConnector="0,30.083333333333"
               Start="0,0"
-              End="31.75,0">
+              End="0,22.583333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="31.75,0" />
+                    End="0,22.583333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16184,18 +16172,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 3]"
-          TopLeft="655.25,191.541666666667">
+          TopLeft="957.402777777778,149.083333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="62.0833333333333,0"
+              EndConnector="0,32.916666666667"
               Start="0,0"
-              End="54.5833333333333,0">
+              End="0,25.416666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="54.5833333333333,0" />
+                    End="0,25.416666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16206,18 +16194,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 4]"
-          TopLeft="874.791666666667,212">
+          TopLeft="960.902777777778,224">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,32.8333333333333"
+              EndConnector="0,32.833333333333"
               Start="0,0"
-              End="0,25.3333333333333">
+              End="0,25.333333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.3333333333333" />
+                    End="0,25.333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16228,18 +16216,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 5]"
-          TopLeft="720.25,264.708333333333">
+          TopLeft="964.347222222222,298.833333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-62.4166666666667,0"
+              EndConnector="0,55.75"
               Start="0,0"
-              End="-54.9166666666667,0">
+              End="0,48.25">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-54.9166666666667,0" />
+                    End="0,48.25" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16250,18 +16238,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 6]"
-          TopLeft="356.833333333333,267.291666666667">
+          TopLeft="962.958333333333,396.583333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-69.9166666666666,0"
+              EndConnector="0,49.6388888888892"
               Start="0,0"
-              End="-62.4166666666666,0">
+              End="0,42.1388888888892">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-62.4166666666666,0" />
+                    End="0,42.1388888888892" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16272,30 +16260,18 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restrição 7]"
-          TopLeft="169.916666666667,292">
+          TopLeft="963.194444444444,488.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="10.3333333333333,48"
+              EndConnector="0,33.7777777777778"
               Start="0,0"
-              End="10.3333333333333,40.5">
+              End="0,26.2777777777778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20"
-                    Point2="0,24"
-                    Point3="4,24" />
-                  <mssgle:LineSegment
-                    End="6.33333333333334,24" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6.33333333333334,24"
-                    Point2="10.3333333333333,24"
-                    Point3="10.3333333333333,28" />
-                  <mssgle:LineSegment
-                    End="10.3333333333333,40.5" />
+                    End="0,26.2777777777778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -19176,7 +19152,9 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
