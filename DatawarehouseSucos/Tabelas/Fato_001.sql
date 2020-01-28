@@ -9,7 +9,7 @@
     [Imposto] FLOAT NULL, 
     [Custo_Variavel] FLOAT NULL, 
     [Quantidade_Vendida] FLOAT NULL, 
-    [Unidade_Vendidad] FLOAT NULL, 
+    [Unidade_Vendida] FLOAT NULL, 
     PRIMARY KEY ([Cod_Dia], [Cod_Cliente], [Cod_Produto], [Cod_Organizacional], [Cod_Fabrica]), 
     CONSTRAINT [FK_Fato_001_Dim_Cliente] FOREIGN KEY ([Cod_Cliente]) REFERENCES [Dim_Cliente]([Cod_Cliente]), 
     CONSTRAINT [FK_Fato_001_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [Dim_Produto]([Cod_Produto]),

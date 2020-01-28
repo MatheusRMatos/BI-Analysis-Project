@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAPSucos</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>BbRjUUYru4G7FfsFhz9ORM/2gO0=24/01/2020 18:04:0724/01/2020 18:04:07</TimeStamp>
+        <ID>
+          <String>DW SUCOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>XgxjyAo9VjiPkvbOmc7mbDaqq40=27/01/2020 19:44:5524/01/2020 18:06:30</TimeStamp>
+        <ID>
+          <String>DW SUCOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C69KEzT6/GDFk/RIpsz+iKwZV7U=24/01/2020 18:28:5824/01/2020 18:25:09</TimeStamp>
+        <ID>
+          <String>Fabrica</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ttZnNfc1E7YQ+7xaCDPFTOk8mh8=24/01/2020 18:57:3424/01/2020 18:54:43</TimeStamp>
+        <ID>
+          <String>Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kGjBNUCqiFTcVYab7Z70TDlUzBc=24/01/2020 19:34:2724/01/2020 19:31:11</TimeStamp>
+        <ID>
+          <String>Produto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jCq6OKHR4q+E54mm2my4akrNwVA=24/01/2020 19:46:5624/01/2020 19:37:57</TimeStamp>
+        <ID>
+          <String>Organizacional</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OzLfrWX/Ta4cjgdzs11D3Uc7ItI=24/01/2020 20:07:0624/01/2020 19:53:09</TimeStamp>
+        <ID>
+          <String>Tempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CGlqfcl+b0Tv/+duMn9qeKQVZCw=25/01/2020 13:44:4324/01/2020 23:44:21dsncjWRNgHOhJeufK8U+yPK5Eyw=24/01/2020 23:44:2324/01/2020 23:44:22</TimeStamp>
+        <ID>
+          <String>VENDAS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>IYqpynvSYGxzzmaAwHC/tciAEtA=27/01/2020 19:52:3725/01/2020 00:08:43NunxIohW0kA5IOD82uKLWcwycwQ=25/01/2020 00:08:4325/01/2020 00:08:43</TimeStamp>
+        <ID>
+          <String>CUSTOS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>W1vTIlCiW8c1tGCpyWNM8pgIjr8=25/01/2020 00:21:1325/01/2020 00:15:12/Lj8oaqjKkHH6CW3XD2hc8QNGE0=25/01/2020 00:15:1225/01/2020 00:15:12</TimeStamp>
+        <ID>
+          <String>PRESIDENCIA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ChGpm23vs00IaOF71JlPzXRG58g=27/01/2020 19:52:3725/01/2020 03:29:19FJcjmOspUXNdgH2SaOUMQk3RJTk=25/01/2020 03:29:1925/01/2020 03:29:19</TimeStamp>
+        <ID>
+          <String>COMPLETO</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Bcez/JnXhyPWE4muf80Zx3ia/IU=24/01/2020 17:59:5124/01/2020 17:59:50</TimeStamp>
+      <ID>
+        <String>OLAPSucos</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-01-27T23:08:01.433333Z</LastDeployed>
+</DeploymentSnapshot>

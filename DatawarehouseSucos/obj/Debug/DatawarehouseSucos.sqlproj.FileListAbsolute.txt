@@ -3,3 +3,7 @@ C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\Dat
 C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
 C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
 C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
+C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\Model.xml
+C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\refactor.xml
+C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\postdeploy.sql
+C:\Users\Roschel\Documents\Matheus\Visual Studio Projects\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\predeploy.sql

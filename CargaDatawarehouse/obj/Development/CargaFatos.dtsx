@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="CargaFatos"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{977B0830-670A-40D2-9639-112FE336AE7B}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{136A1027-2793-4BFA-B46D-DBBA37B6997B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYircSajNe06jpeXWW+VFTAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAM0Bl60ZbCn4j1mIAYjcgSrMmpZVpjjEQLnuzlLaCOWQAAAAAOgAAAAAIAACAAAAA4bf4oBJIXTTuxehuaPA2Nu9C21CGCgyE3ZMUgJavGbCAAAADnSxKKjWGYS0CLpZFCwUng6mD8TU8dfp9iTJ1buwZBp0AAAAAw+eS5fL0SdJ9nwtgQlBaDzjU7sCM6a+sZWIIbY70FNs2Ypb+K9REi0bLIz1TuOD09SCZF0jk7KoLCkpvh874O</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYircSajNe06jpeXWW+VFTAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABn5VBHv356S+4MqcHpiKe5BMtDCbL0IDMTXrgqn32bXQAAAAAOgAAAAAIAACAAAADbOMrwTGx2e3lLvX0my+CDtXP8z3QSsJRpCsZ+HJDv/SAAAABMN9LLKDn19H9OQ8z6BmPRS1wrzuF7eJMtO5ZYQVGI00AAAABb4WAEJESts+1ov+r+jv5fhs5nF/CX0jNZI7EvYylW9NZhBXkVA/FYdbKEHkXRYQ/F0zcbmeZVAe5y+lSiByuD</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5085,13 +5085,13 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148,42"
-          Id="Package\Carga Fato001\Carga Fato001"
-          TopLeft="221.5,5.49999999999989" />
-        <NodeLayout
           Size="217,42"
           Id="Package\Carga Fato001\Dimensão de Alteração Lenta"
           TopLeft="187,107.5" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Carga Fato001\Carga Fato001"
+          TopLeft="221.5,5.49999999999989" />
         <EdgeLayout
           Id="Package\Carga Fato001.Paths[Saída de Origem OLE DB]"
           TopLeft="295.5,47.4999999999999">
@@ -5226,14 +5226,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato001\Carga Fato001">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato001\Dimensão de Alteração Lenta">
     <Properties>
       <Property>
@@ -5325,45 +5317,75 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato001\Carga Fato001">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga Fato002">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="157,42"
+          Id="Package\Carga Fato002\Inserir Destino 1"
+          TopLeft="670,209.5" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga Fato002\Comando OLE DB 3"
+          TopLeft="1120.5,209.5" />
+        <NodeLayout
           Size="148,42"
           Id="Package\Carga Fato002\Carga Fato002"
           TopLeft="899.5,5.49999999999989" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga Fato002\Comando OLE DB 2"
+          TopLeft="887.5,209.5" />
         <NodeLayout
           Size="217,42"
           Id="Package\Carga Fato002\Dimensão de Alteração Lenta"
           TopLeft="865,107.5" />
         <EdgeLayout
-          Id="Package\Carga Fato002.Paths[Saída de Origem OLE DB]"
-          TopLeft="973.5,47.4999999999999">
+          Id="Package\Carga Fato002.Paths[Saída de Atualizações de Atributo de Alteração]"
+          TopLeft="1025.75,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="180.75,60"
               Start="0,0"
-              End="0,52.5">
+              End="180.75,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,16.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4855842185129"
+                    Point2="0,20.4855842185129"
+                    Point3="4,20.4855842185129" />
+                  <mssgle:LineSegment
+                    End="176.75,20.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="176.75,20.4855842185129"
+                    Point2="180.75,20.4855842185129"
+                    Point3="180.75,24.4855842185129" />
+                  <mssgle:LineSegment
+                    End="180.75,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-12.9876953125,25.4855842185129,206.725390625,12.2490234375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Carga Fato002\Inserir Destino 1"
-          TopLeft="670,209.5" />
         <EdgeLayout
           Id="Package\Carga Fato002.Paths[Nova Saída]"
           TopLeft="921.25,149.5">
@@ -5400,10 +5422,30 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato002\Comando OLE DB 2"
-          TopLeft="887.5,209.5" />
+        <EdgeLayout
+          Id="Package\Carga Fato002.Paths[Saída de Origem OLE DB]"
+          TopLeft="973.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Fato002.Paths[Saída de Atualizações de Membro Inferido]"
           TopLeft="973.5,149.5">
@@ -5425,46 +5467,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato002\Comando OLE DB 3"
-          TopLeft="1120.5,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato002.Paths[Saída de Atualizações de Atributo de Alteração]"
-          TopLeft="1025.75,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="180.75,60"
-              Start="0,0"
-              End="180.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4855842185129"
-                    Point2="0,20.4855842185129"
-                    Point3="4,20.4855842185129" />
-                  <mssgle:LineSegment
-                    End="176.75,20.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="176.75,20.4855842185129"
-                    Point2="180.75,20.4855842185129"
-                    Point3="180.75,24.4855842185129" />
-                  <mssgle:LineSegment
-                    End="180.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-12.9876953125,25.4855842185129,206.725390625,12.2490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5547,107 +5549,25 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148,42"
-          Id="Package\Carga Fato003\Carga Fato003"
-          TopLeft="899.5,5.49999999999989" />
-        <NodeLayout
           Size="217,42"
           Id="Package\Carga Fato003\Dimensão de Alteração Lenta"
           TopLeft="865,107.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato003.Paths[Saída de Origem OLE DB]"
-          TopLeft="973.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Carga Fato003\Inserir Destino 1"
-          TopLeft="670,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato003.Paths[Nova Saída]"
-          TopLeft="921.25,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-172.75,60"
-              Start="0,0"
-              End="-172.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4855842185129"
-                    Point2="0,20.4855842185129"
-                    Point3="-4,20.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-168.75,20.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-168.75,20.4855842185129"
-                    Point2="-172.75,20.4855842185129"
-                    Point3="-172.75,24.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-172.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-111.368359375,25.4855842185129,49.98671875,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato003\Comando OLE DB 2"
-          TopLeft="887.5,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato003.Paths[Saída de Atualizações de Membro Inferido]"
-          TopLeft="973.5,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="172,42"
           Id="Package\Carga Fato003\Comando OLE DB 3"
           TopLeft="1120.5,209.5" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga Fato003\Comando OLE DB 2"
+          TopLeft="887.5,209.5" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Carga Fato003\Inserir Destino 1"
+          TopLeft="670,209.5" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Carga Fato003\Carga Fato003"
+          TopLeft="899.5,5.49999999999989" />
         <EdgeLayout
           Id="Package\Carga Fato003.Paths[Saída de Atualizações de Atributo de Alteração]"
           TopLeft="1025.75,149.5">
@@ -5684,17 +5604,93 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato003.Paths[Nova Saída]"
+          TopLeft="921.25,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-172.75,60"
+              Start="0,0"
+              End="-172.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4855842185129"
+                    Point2="0,20.4855842185129"
+                    Point3="-4,20.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-168.75,20.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-168.75,20.4855842185129"
+                    Point2="-172.75,20.4855842185129"
+                    Point3="-172.75,24.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-172.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-111.368359375,25.4855842185129,49.98671875,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato003.Paths[Saída de Origem OLE DB]"
+          TopLeft="973.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato003.Paths[Saída de Atualizações de Membro Inferido]"
+          TopLeft="973.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato003\Carga Fato003">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Fato003\Dimensão de Alteração Lenta">
     <Properties>
@@ -5745,45 +5741,75 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato003\Carga Fato003">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Carga Fato004">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="157,42"
+          Id="Package\Carga Fato004\Inserir Destino 1"
+          TopLeft="670,209.5" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga Fato004\Comando OLE DB 3"
+          TopLeft="1120.5,209.5" />
+        <NodeLayout
           Size="148,42"
           Id="Package\Carga Fato004\Carga Fato004"
           TopLeft="899.5,5.49999999999989" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Carga Fato004\Comando OLE DB 2"
+          TopLeft="887.5,209.5" />
         <NodeLayout
           Size="217,42"
           Id="Package\Carga Fato004\Dimensão de Alteração Lenta"
           TopLeft="865,107.5" />
         <EdgeLayout
-          Id="Package\Carga Fato004.Paths[Saída de Origem OLE DB]"
-          TopLeft="973.5,47.4999999999999">
+          Id="Package\Carga Fato004.Paths[Saída de Atualizações de Atributo de Alteração]"
+          TopLeft="1025.75,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="180.75,60"
               Start="0,0"
-              End="0,52.5">
+              End="180.75,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,16.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4855842185129"
+                    Point2="0,20.4855842185129"
+                    Point3="4,20.4855842185129" />
+                  <mssgle:LineSegment
+                    End="176.75,20.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="176.75,20.4855842185129"
+                    Point2="180.75,20.4855842185129"
+                    Point3="180.75,24.4855842185129" />
+                  <mssgle:LineSegment
+                    End="180.75,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-12.9876953125,25.4855842185129,206.725390625,12.2490234375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Carga Fato004\Inserir Destino 1"
-          TopLeft="670,209.5" />
         <EdgeLayout
           Id="Package\Carga Fato004.Paths[Nova Saída]"
           TopLeft="921.25,149.5">
@@ -5820,10 +5846,30 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato004\Comando OLE DB 2"
-          TopLeft="887.5,209.5" />
+        <EdgeLayout
+          Id="Package\Carga Fato004.Paths[Saída de Origem OLE DB]"
+          TopLeft="973.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga Fato004.Paths[Saída de Atualizações de Membro Inferido]"
           TopLeft="973.5,149.5">
@@ -5845,46 +5891,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato004\Comando OLE DB 3"
-          TopLeft="1120.5,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato004.Paths[Saída de Atualizações de Atributo de Alteração]"
-          TopLeft="1025.75,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="180.75,60"
-              Start="0,0"
-              End="180.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4855842185129"
-                    Point2="0,20.4855842185129"
-                    Point3="4,20.4855842185129" />
-                  <mssgle:LineSegment
-                    End="176.75,20.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="176.75,20.4855842185129"
-                    Point2="180.75,20.4855842185129"
-                    Point3="180.75,24.4855842185129" />
-                  <mssgle:LineSegment
-                    End="180.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-12.9876953125,25.4855842185129,206.725390625,12.2490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -5967,107 +5973,25 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="148,42"
-          Id="Package\Carga Fato005\Carga Fato005"
-          TopLeft="899.5,5.49999999999989" />
+          Size="172,42"
+          Id="Package\Carga Fato005\Comando OLE DB 2"
+          TopLeft="887.5,209.5" />
         <NodeLayout
           Size="217,42"
           Id="Package\Carga Fato005\Dimensão de Alteração Lenta"
           TopLeft="865,107.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato005.Paths[Saída de Origem OLE DB]"
-          TopLeft="973.5,47.4999999999999">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="157,42"
           Id="Package\Carga Fato005\Inserir Destino 1"
           TopLeft="670,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato005.Paths[Nova Saída]"
-          TopLeft="921.25,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-172.75,60"
-              Start="0,0"
-              End="-172.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4855842185129"
-                    Point2="0,20.4855842185129"
-                    Point3="-4,20.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-168.75,20.4855842185129" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-168.75,20.4855842185129"
-                    Point2="-172.75,20.4855842185129"
-                    Point3="-172.75,24.4855842185129" />
-                  <mssgle:LineSegment
-                    End="-172.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-111.368359375,25.4855842185129,49.98671875,10.3349609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Carga Fato005\Comando OLE DB 2"
-          TopLeft="887.5,209.5" />
-        <EdgeLayout
-          Id="Package\Carga Fato005.Paths[Saída de Atualizações de Membro Inferido]"
-          TopLeft="973.5,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="172,42"
           Id="Package\Carga Fato005\Comando OLE DB 3"
           TopLeft="1120.5,209.5" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Carga Fato005\Carga Fato005"
+          TopLeft="899.5,5.49999999999989" />
         <EdgeLayout
           Id="Package\Carga Fato005.Paths[Saída de Atualizações de Atributo de Alteração]"
           TopLeft="1025.75,149.5">
@@ -6104,17 +6028,93 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato005.Paths[Nova Saída]"
+          TopLeft="921.25,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-172.75,60"
+              Start="0,0"
+              End="-172.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4855842185129"
+                    Point2="0,20.4855842185129"
+                    Point3="-4,20.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-168.75,20.4855842185129" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-168.75,20.4855842185129"
+                    Point2="-172.75,20.4855842185129"
+                    Point3="-172.75,24.4855842185129" />
+                  <mssgle:LineSegment
+                    End="-172.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-111.368359375,25.4855842185129,49.98671875,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato005.Paths[Saída de Origem OLE DB]"
+          TopLeft="973.5,47.4999999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Fato005.Paths[Saída de Atualizações de Membro Inferido]"
+          TopLeft="973.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-93.5976953125,20.12548828125,187.195390625,12.2490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato005\Carga Fato005">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Carga Fato005\Dimensão de Alteração Lenta">
     <Properties>
@@ -6168,6 +6168,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato005\Carga Fato005">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
